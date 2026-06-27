@@ -1,0 +1,9 @@
+-r requirements.txt
+
+ipython
+django-extensions
+django-debug-toolbar
+black
+flake8
+pytest
+pytest-django
