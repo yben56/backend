@@ -40,6 +40,9 @@ INSTALLED_APPS = [
 
     # Third Party
     "rest_framework",
+
+    # Local Apps
+    "apps.users",
 ]
 
 # JWT
