@@ -1,0 +1,43 @@
+# ======================
+# ENV FILES
+# ======================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# keep example
+!.env.example
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django DB / logs
+*.sqlite3
+*.db
+*.log
+
+# venv
+env/
+venv/
+ENV/
+VENV/
+
+# migrations
+# **/migrations/*.py
+# !**/migrations/__init__.py
+
+# static / media
+staticfiles/
+media/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
